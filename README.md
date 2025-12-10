@@ -1,3 +1,30 @@
+# 📘 Exam Score Prediction – Data Preprocessing & Exploratory Analysis
+
+This repository contains a Jupyter Notebook dedicated to **data preprocessing** and **exploratory data analysis (EDA)** for an *Exam Score Prediction* dataset.  
+The notebook prepares the raw dataset for machine-learning workflows through cleaning, encoding, scaling, and feature transformation.
+
+---
+
+## 🚀 Project Overview
+
+The objective of this project is to prepare a student-performance dataset for predictive modeling of **exam scores**.  
+The notebook includes:
+
+- Data loading and inspection  
+- Cleaning and preprocessing  
+- Exploratory data analysis  
+- Ordinal and one-hot encoding of categorical features  
+- Scaling numerical features  
+- Building complete preprocessing pipelines for ML models  
+
+This structure makes the notebook directly extendable to machine-learning model development.
+
+---
+
+## 📂 Dataset Information
+
+The notebook uses the dataset:
+
 
 ### **Target Variable**
 - `exam_score`
