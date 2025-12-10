@@ -1,7 +1,7 @@
-# 📘 Exam Score Prediction – Data Preprocessing & Exploratory Analysis
+# 📘 Exam Score Prediction – Data Preprocessing, Exploratory Analysis & Linear Model
 
-This repository contains a Jupyter Notebook dedicated to **data preprocessing** and **exploratory data analysis (EDA)** for an *Exam Score Prediction* dataset.  
-The notebook prepares the raw dataset for machine-learning workflows through cleaning, encoding, scaling, and feature transformation.
+This repository contains a Jupyter Notebook dedicated to **data preprocessing**, **exploratory data analysis (EDA)**, and building a **Linear Regression model** for predicting exam scores.  
+The notebook prepares the dataset through cleaning, encoding, scaling, and feature transformation before training a linear model.
 
 ---
 
@@ -15,16 +15,16 @@ The notebook includes:
 - Exploratory data analysis  
 - Ordinal and one-hot encoding of categorical features  
 - Scaling numerical features  
-- Building complete preprocessing pipelines for ML models  
+- Building complete preprocessing pipelines  
+- **Training a Linear Regression model for prediction**
 
-This structure makes the notebook directly extendable to machine-learning model development.
+This structure provides a full end-to-end pipeline from raw data to a trained machine-learning model.
 
 ---
 
 ## 📂 Dataset Information
 
 The notebook uses the dataset:
-
 
 ### **Target Variable**
 - `exam_score`
@@ -61,6 +61,7 @@ The notebook uses the dataset:
   - `OneHotEncoder`  
   - `ColumnTransformer`  
   - `StandardScaler`  
+  - `LinearRegression`  
   - `train_test_split`  
 
 ---
@@ -84,19 +85,25 @@ The notebook uses the dataset:
 - Apply **One-Hot Encoding** for nominal features  
 - Scale numerical features using **StandardScaler**  
 - Integrate transformations using **ColumnTransformer**  
-- Export final processed feature sets for modeling  
+- Build final processed feature matrices  
+
+### **4. Machine Learning Model**
+- Train a **Linear Regression model** using processed features  
+- Evaluate model performance on test data  
+- Analyze prediction behavior  
 
 ---
 
 ## 📦 Output Artifacts
 
-The notebook produces the following key objects:
+The notebook produces:
 
 - `X_train_df` — processed training features  
 - `X_test_df` — processed testing features  
 - Encoded, scaled, and cleaned datasets  
 - Reconstructed feature names  
-- A complete preprocessing pipeline ready for ML modeling  
+- **Trained Linear Regression model and predictions**  
+- Complete preprocessing + modeling pipeline  
 
 ---
 
